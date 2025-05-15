@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@theme {
+  --font-inter: Inter, sans-serif;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));

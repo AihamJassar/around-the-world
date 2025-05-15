@@ -1,7 +1,13 @@
-import "./App.css";
+import Logo from "./components/Logo";
+import ThemeSwitcher from "./components/ThemeSwitcher";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Logo />
+      <ThemeSwitcher />
+    </>
+  );
 }
 
 export default App;
